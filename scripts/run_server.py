@@ -1,4 +1,4 @@
-from alpaca_lora_4bit.model_server import ModelServer
+from alpaca_lora_4bit.server import ModelServer
 import argparse
 
 if __name__ == '__main__':
