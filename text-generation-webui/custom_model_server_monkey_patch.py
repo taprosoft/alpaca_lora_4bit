@@ -1,4 +1,4 @@
-from alpaca_lora_4bit.server import ModelClient
+from alpaca_lora_4bit.model_server import ModelClient
 from transformers import LlamaTokenizer
 
 def load_model_llama(*args, **kwargs):

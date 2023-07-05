@@ -4,7 +4,8 @@ import warnings
 
 from peft.tuners import lora
 from peft.tuners.lora import Linear, LoraLayer
-from peft.utils import _get_submodules
+from peft.utils import _get_submodules, PeftType
+from torch import nn
 from transformers.pytorch_utils import Conv1D
 
 from alpaca_lora_4bit.autograd_4bit import Autograd4bitQuantLinear

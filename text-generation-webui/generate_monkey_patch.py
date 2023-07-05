@@ -1,6 +1,6 @@
 import modules.text_generation
 from modules.text_generation import *
-from alpaca_lora_4bit.server import _SentinelTokenStoppingCriteria
+from alpaca_lora_4bit.model_server import _SentinelTokenStoppingCriteria
 
 def get_reply_from_output_str(reply, original_question):
     if type(shared.tokenizer) is transformers.LlamaTokenizer:
