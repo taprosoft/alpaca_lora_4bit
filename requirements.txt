@@ -6,7 +6,7 @@ safetensors
 einops
 colorama
 pyzmq
-peft@git+https://github.com/huggingface/peft.git
+peft==0.4.0
 transformers
 gptq_llama@git+https://github.com/sterlind/GPTQ-for-LLaMa.git@lora_4bit
 wandb
